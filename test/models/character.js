@@ -17,5 +17,13 @@ describe("Character", function(){
       expect(Character.prototype.get).to.exist;
       expect(typeof Character.prototype.get).to.equal('function');
     });
+
+    it("returns a value when get is called", function(){
+      var character = new Character();
+      character.attributes.name = 'Jack';
+
+      expect(character.get('name')).to.equal('Jack');
+    });
   });
 });
+

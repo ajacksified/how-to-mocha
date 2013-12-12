@@ -6,3 +6,4 @@ Character.prototype.get = function() {
 };
 
 module.exports = Character;
+
