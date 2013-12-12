@@ -25,5 +25,27 @@ describe("Character", function(){
       expect(character.get('name')).to.equal('Jack');
     });
   });
+
+  describe("setting values", function() {
+    it("has a set function", function() {
+      expect(Character.prototype.set).to.exist;
+      expect(typeof Character.prototype.set).to.equal('function');
+    });
+
+    it("sets a value in attributes when set is called", function(){
+      var character = new Character(),
+          name = 'Jack';
+
+      character.set('name', name);
+      expect(character.attributes.name).to.equal(name);
+    });
+
+    it("returns the set value when set is called", function(){
+      var character = new Character(),
+          name = 'Jack';
+
+      expect(character.set('name', name)).to.equal(name);
+    });
+  });
 });
 
