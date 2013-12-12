@@ -1,0 +1,16 @@
+{
+  "name": "how-to-mocha",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive ./test/"
+  },
+  "author": "Jack Lawson <https://github.com/ajacksified>",
+  "license": "MIT",
+  "repository": "git@github.com:ajacksified/how-to-mocha.git",
+  "dependencies": {
+    "mocha": "~1.15.1",
+    "chai": "~1.8.1"
+  }
+}
