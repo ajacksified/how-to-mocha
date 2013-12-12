@@ -22,4 +22,5 @@ Further Reading
 * Read more about [Mocha](http://visionmedia.github.io/mocha/)
 * We're set up to use a library called Chai for assertions. Read about
   what this is at [chaijs.com](http://chaijs.com/guide/styles/#expect)
+* Browse my overview presentation at [thejacklawson.com/javascript-testing](http://thejacklawson.com/javascript-testing/)
 
